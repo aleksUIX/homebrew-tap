@@ -7,7 +7,7 @@ class Vastlint < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/aleksUIX/vastlint/releases/download/v0.1.0/vastlint-macos-aarch64.tar.gz"
-      sha256 "57a858d3cca261be0f9796c26543a08ea3fb83adebe7a978ecfe33c22f02181d"
+      sha256 "5890d57cbf680acd834e2ac7e27e56872a2e2b60edd56b18b8ddcd839338bc2e"
     else
       url "https://github.com/aleksUIX/vastlint/releases/download/v0.1.0/vastlint-macos-x86_64.tar.gz"
       sha256 "38bfd6020e0039ec754d0b67a48d4748c36324b2a71ace87fcc56cf113a9552e"
