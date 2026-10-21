@@ -7,20 +7,20 @@ class Vastlint < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/aleksUIX/vastlint/releases/download/v0.15.1/vastlint-macos-aarch64.tar.gz"
-      sha256 "4e10f13a8192798a21ff6a213849e017403c08603ef258d09a75723dbd7b2f91"
+      sha256 "23c6f496e52d1e3577c67fe44ddb15fc0485d2abce17f1e63b123f35003a061a"
     else
       url "https://github.com/aleksUIX/vastlint/releases/download/v0.15.1/vastlint-macos-x86_64.tar.gz"
-      sha256 "423018197b79bcb3f9e2338205a7975dd5ddc46443455e0cabdc7e838a8b3103"
+      sha256 "5b6bfc334c353af1780b37cafa784c2ddd75fd97f853a951a19ea8f92482a0a4"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/aleksUIX/vastlint/releases/download/v0.15.1/vastlint-linux-aarch64.tar.gz"
-      sha256 "777217236fb1e38f04a1c9e548d5b5f782f3f4d96d50effdab61ade75f0c156b"
+      sha256 "58494b85c7e8d971c3fd490bc123c7f7e72a8621f15cf2ee9a43aa488216db98"
     else
       url "https://github.com/aleksUIX/vastlint/releases/download/v0.15.1/vastlint-linux-x86_64.tar.gz"
-      sha256 "f330e4ad153afe8a1427162c3f7d38b3f6a4618115c34c427f46e16f94256448"
+      sha256 "0272ad08e1465e871e52b6c6d6ebf20f5642509e06da741a0a7bad94ac01ea0c"
     end
   end
 
