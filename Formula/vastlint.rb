@@ -2,25 +2,25 @@ class Vastlint < Formula
   desc "VAST XML validator — checks ad tags against IAB VAST 2.0 through 4.4"
   homepage "https://vastlint.org"
   license "Apache-2.0"
-  version "0.16.1"
+  version "0.16.2"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/aleksUIX/vastlint/releases/download/v0.16.1/vastlint-macos-aarch64.tar.gz"
-      sha256 "a3148c0be2d0d6a1c4e35683b77bfc13d1288f3b17a176b48c9375d3193bc1a9"
+      url "https://github.com/aleksUIX/vastlint/releases/download/v0.16.2/vastlint-macos-aarch64.tar.gz"
+      sha256 "d1f912d5aeeab7eb02656d3dc8f4ea566be1dd73cac79b827822eb5b706085fd"
     else
-      url "https://github.com/aleksUIX/vastlint/releases/download/v0.16.1/vastlint-macos-x86_64.tar.gz"
-      sha256 "30bec2167c232195541e2c8ef638d5d83f92f8ad639beedd618265ae1b630ed3"
+      url "https://github.com/aleksUIX/vastlint/releases/download/v0.16.2/vastlint-macos-x86_64.tar.gz"
+      sha256 "e979acec96e67edbb4e3e10d334c31947dcc03e7cdfebb91444df0507252f52a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/aleksUIX/vastlint/releases/download/v0.16.1/vastlint-linux-aarch64.tar.gz"
-      sha256 "2906009a78a4b60f238cb2a82c5e33ac27a940ee8540cf259eb38aa59a3f8eb6"
+      url "https://github.com/aleksUIX/vastlint/releases/download/v0.16.2/vastlint-linux-aarch64.tar.gz"
+      sha256 "edade5cf94c2ce24c2f12be1aabe1404991318fec67e80cb1ff24018f47f3e69"
     else
-      url "https://github.com/aleksUIX/vastlint/releases/download/v0.16.1/vastlint-linux-x86_64.tar.gz"
-      sha256 "3ef56504addd08efb95b07586ab563363c2b1bf51d1412602e52bc776ede287a"
+      url "https://github.com/aleksUIX/vastlint/releases/download/v0.16.2/vastlint-linux-x86_64.tar.gz"
+      sha256 "150d285069b4d7ec44e1d3248acfe05ca962afa6c03e8f38702d71ebd4bb6641"
     end
   end
 
